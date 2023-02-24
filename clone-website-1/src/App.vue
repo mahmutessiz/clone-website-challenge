@@ -1,11 +1,18 @@
 <script>
-import MainNav from './components/MainNav.vue';
-export default{
-  components:{
+import MainNav from './components/MainNav.vue'
+import MainSection from './components/MainSection.vue'
+export default {
+  components: {
     MainNav,
+    MainSection
   }
 }
 </script>
 <template>
-  <MainNav />
+  <div class="flex w-full justify-center px-6">
+    <div class="max-w-screen-lg">
+      <MainNav />
+      <MainSection />
+    </div>
+  </div>
 </template>
