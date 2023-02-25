@@ -1,11 +1,43 @@
 <script>
 export default {
   methods: {
-    changeSlide(event) {
-      event.target.classList.add('border-b-0')
-      event.target.classList.remove('bg-gray-300')
-      event.target.classList.add('bg-gray-100')
-    }
+    changeSlide() {
+      const element1 = document.getElementById('31');
+      const element2 = document.getElementById('32');
+
+      const image2 = document.getElementById('image32');
+      const image1 = document.getElementById('image31');
+
+
+      image2.classList.add('hidden');
+      image2.classList.remove('block');
+      image1.classList.add('block');
+      image1.classList.remove('hidden');
+
+      element1.classList.remove('deactive');
+      element1.classList.add('active');
+
+      element2.classList.add('deactive');
+      element2.classList.remove('active');
+
+    },
+    changeSlide2() {
+      const element1 = document.getElementById('31');
+      const element2 = document.getElementById('32');
+      const image1 = document.getElementById('image31');
+      const image2 = document.getElementById('image32');
+
+      image1.classList.add('hidden');
+      image1.classList.remove('block');
+      image2.classList.add('block');
+      image2.classList.remove('hidden');
+
+      element2.classList.remove('deactive');
+      element2.classList.add('active');
+
+      element1.classList.add('deactive');
+      element1.classList.remove('active');
+    },
   }
 }
 </script>
@@ -23,25 +55,39 @@ export default {
       operations and finance, collaborate across your entire company.
     </p>
   </div>
+
   <div class="w-full">
     <div class="mt-10 flex justify-evenly gap-1">
       <h2
-        class="w-1/2 rounded-t-2xl border-2 border-b-0 border-black bg-gray-100 py-4 px-9 text-lg"
+        class="active"
+        id="31"
         @click="changeSlide"
       >
         Intuitive
       </h2>
 
       <h2
-        class="z-10 w-1/2 rounded-t-2xl border-b-2 border-black bg-gray-300 py-4 px-9 text-lg"
-        @click="changeSlide"
+        class="deactive"
+        id="32"
+        @click="changeSlide2"
       >
         Approachable
       </h2>
     </div>
     <div class="-mt-0.5 overflow-hidden rounded-b-xl border-2 border-black">
-      <img src="../images/63e3dff33ec7533c37c3a71c_tasks.png" alt="" />
+      <img src="../images/intuitive.png" class="block" id="image31" alt="" />
+      <img src="../images/approachable.png" class="hidden" id="image32" alt="">
     </div>
     <br />
   </div>
 </template>
+
+<style scoped>
+.active {
+  @apply w-1/2 rounded-t-2xl border-2 border-b-0 border-black bg-gray-100 py-4 px-9 text-lg cursor-pointer;
+}
+
+.deactive {
+  @apply z-10 w-1/2 rounded-t-2xl border-b-2 border-0 border-black bg-gray-300 py-4 px-9 text-lg cursor-pointer;
+}
+</style>

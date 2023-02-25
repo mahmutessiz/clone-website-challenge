@@ -12,11 +12,17 @@ export default {
     MainAction3,
     MainAction4,
     MainBottom
-  }
+  },
 }
 </script>
 
 <template>
+  <div class="w-full py-9 bg-rose-600 grid place-items-center">
+    <p class="font-bold">Note:</p> <span>this is just a clone website. This is the orginal website's link: <a
+        href="https://www.superthread.com/"
+        class="underline text blue font-bold">https://www.superthread.com/</a></span><br>
+  </div>
+
   <main class="text-center">
     <img src="../images/hero-illustration-2.svg" alt="main image" />
     <div class="flex w-full flex-col items-center justify-center gap-9 px-9">
@@ -34,6 +40,11 @@ export default {
     <br />
     <MainAction2 />
     <br />
+    <div class="w-full py-9 bg-rose-600 grid place-items-center">
+      <p class="font-bold">Note:</p> <span>this is just a clone website. This is the orginal website's link: <a
+          href="https://www.superthread.com/"
+          class="underline text blue font-bold">https://www.superthread.com/</a></span><br>
+    </div>
     <img src="../images/divider-3.svg" alt="" />
     <br />
     <MainAction3 />
@@ -45,4 +56,9 @@ export default {
     <img src="../images/divider-3.svg" alt="" /><br /><br />
     <MainBottom />
   </main>
-</template>
+
+  <div class="w-full py-9 bg-rose-600 grid place-items-center">
+    <p class="font-bold">Note:</p> <span>This is just a clone website. This is the orginal website's link: <a
+      href="https://www.superthread.com/"
+      class="underline text blue font-bold">https://www.superthread.com/</a></span><br>
+</div></template>
