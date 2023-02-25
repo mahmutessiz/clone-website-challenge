@@ -30,7 +30,7 @@ export default {
       <p class="text-3xl text-gray-800">
         Unified productivity software for agile start-ups who want to build better products, faster
       </p>
-      <button class="w-fit rounded-full bg-black px-4 py-4 font-serif font-bold text-gray-300">
+      <button class="w-fit rounded-full bg-black px-4 py-4 font-serif font-bold text-gray-300 transition-all duration-300 hover:border-b-4 hover:border-r-4 hover:border-yellow-500">
         Try for free beta
       </button>
     </div>
