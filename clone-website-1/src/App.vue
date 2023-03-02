@@ -4,8 +4,8 @@ import MainSection from './components/MainSection.vue'
 export default {
   components: {
     MainNav,
-    MainSection
-  }
+    MainSection,
+  },
 }
 </script>
 <template>

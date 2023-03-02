@@ -11,16 +11,20 @@ export default {
     MainAction2,
     MainAction3,
     MainAction4,
-    MainBottom
+    MainBottom,
   },
 }
 </script>
 
 <template>
-  <div class="w-full py-9 bg-rose-600 grid place-items-center">
-    <p class="font-bold">Note:</p> <span>this is just a clone website. This is the orginal website's link: <a
-        href="https://www.superthread.com/"
-        class="underline text blue font-bold">https://www.superthread.com/</a></span><br>
+  <div class="grid w-full place-items-center bg-rose-600 py-9">
+    <p class="font-bold">Note:</p>
+    <span
+      >this is just a clone website. This is the orginal website's link:
+      <a href="https://www.superthread.com/" class="text blue font-bold underline"
+        >https://www.superthread.com/</a
+      ></span
+    ><br />
   </div>
 
   <main class="text-center">
@@ -30,7 +34,9 @@ export default {
       <p class="text-3xl text-gray-800">
         Unified productivity software for agile start-ups who want to build better products, faster
       </p>
-      <button class="w-fit rounded-full bg-black px-4 py-4 font-serif font-bold text-gray-300 transition-all duration-300 hover:border-b-4 hover:border-r-4 hover:border-yellow-500">
+      <button
+        class="w-fit rounded-full bg-black px-4 py-4 font-serif font-bold text-gray-300 transition-all duration-300 hover:border-b-4 hover:border-r-4 hover:border-yellow-500"
+      >
         Try for free beta
       </button>
     </div>
@@ -40,10 +46,14 @@ export default {
     <br />
     <MainAction2 />
     <br />
-    <div class="w-full py-9 bg-rose-600 grid place-items-center">
-      <p class="font-bold">Note:</p> <span>this is just a clone website. This is the orginal website's link: <a
-          href="https://www.superthread.com/"
-          class="underline text blue font-bold">https://www.superthread.com/</a></span><br>
+    <div class="grid w-full place-items-center bg-rose-600 py-9">
+      <p class="font-bold">Note:</p>
+      <span
+        >this is just a clone website. This is the orginal website's link:
+        <a href="https://www.superthread.com/" class="text blue font-bold underline"
+          >https://www.superthread.com/</a
+        ></span
+      ><br />
     </div>
     <img src="../images/divider-3.svg" alt="" />
     <br />
@@ -57,8 +67,13 @@ export default {
     <MainBottom />
   </main>
 
-  <div class="w-full py-9 bg-rose-600 grid place-items-center">
-    <p class="font-bold">Note:</p> <span>This is just a clone website. This is the orginal website's link: <a
-      href="https://www.superthread.com/"
-      class="underline text blue font-bold">https://www.superthread.com/</a></span><br>
-</div></template>
+  <div class="grid w-full place-items-center bg-rose-600 py-9">
+    <p class="font-bold">Note:</p>
+    <span
+      >This is just a clone website. This is the orginal website's link:
+      <a href="https://www.superthread.com/" class="text blue font-bold underline"
+        >https://www.superthread.com/</a
+      ></span
+    ><br />
+  </div>
+</template>

@@ -4,7 +4,9 @@
       class="flex w-full flex-col items-center justify-center gap-7 rounded-xl bg-gray-900 p-9 text-white"
     >
       <h2 class="text-3xl font-bold">Where connected teams ship better products, faster</h2>
-      <button class="w-fit rounded-full bg-gray-100 py-4 px-6 text-lg font-semibold text-black transition-all duration-300 hover:border-b-4 hover:border-r-4 hover:border-yellow-500">
+      <button
+        class="w-fit rounded-full bg-gray-100 py-4 px-6 text-lg font-semibold text-black transition-all duration-300 hover:border-b-4 hover:border-r-4 hover:border-yellow-500"
+      >
         Try the beta free
       </button>
       <p class="text-xl">
